@@ -4,9 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="body">
+        <div class="time">
+            <div class="timekabeta">
+                <span class="hours">00</span> :
+                <span class="minutes">00 </span>
+                <span class="pm"> PM</span>
+            </div>
+        </div>
+
+        <div class="date">
+            <span id="background">
+                <span id="month" class="month datepart2 date-part-2">0</span></span>
+            <span id="background">
+                <span id="day" class="todaydate datepart2 date-part-2">0</span></span>
+            <span id="background">
+                <span id="year" class="year datepart2 date-part-2">0</span></span>
+        </div>
+    </div>
+    <script src="app.js"></script>
 </body>
 </html>
