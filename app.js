@@ -26,5 +26,6 @@ hours.textContent = ajkihours;
 minutes.textContent = ajkiminutes;
 month.textContent = ajkimonth;
 year.textContent = ajkiyear;
+day
 }
 setInterval(myfunction, 100)
